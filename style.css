@@ -10,7 +10,12 @@ header {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #ffffff;
+  background-color: #0B0526;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 5%;
+  
 }
 li,
 a,
@@ -20,12 +25,6 @@ button {
   font-size: 16px;
   color: #f5f5f5;
   text-decoration: none;
-}
-header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 10px 5%;
 }
 .logo {
   cursor: pointer;
@@ -64,9 +63,24 @@ i{
   margin: 10px;
   cursor: pointer;
 }
+/* Main Style  */
+main hr{
+  border: 1px solid #0B0526;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+main img{
+  margin: 25px;
+}
+.frist-images{
+margin-left: 500px;
+}
+.last-images{
+  margin-right: 450px;
+  }
 /* Footer Styles  */
 footer{
-  background-color: #0A0826;
+  background-color: #0B0526;
   text-align: center;
   left: 41.53%;
   right: 41.6%;
@@ -79,7 +93,7 @@ footer h1, p{
   color: #ffffff;
 }
 hr{
-  border: 1px solid #808080;
+  border: 1px solid #ffffff;
   margin-left: 300px;
   margin-right: 300px;
 }
